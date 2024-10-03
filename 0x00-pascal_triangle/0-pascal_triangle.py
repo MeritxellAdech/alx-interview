@@ -14,7 +14,7 @@ def pascal_triangle(num_of_rows):
     if num_of_rows <= 0:
         return []
     elif num_of_rows == 1:
-        return [1]
+        return [[1]]
     elif num_of_rows == 2:
         return [[1], [1, 1]]
     else:
